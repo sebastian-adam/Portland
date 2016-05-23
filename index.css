@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, Verdana, sans-serif;}
+h1, h2 {
+	color: #ee3e80;
+  font-size: 100px;
+  font-family:sans-serif;
+}
+p {
+	color: #665544;}
+
+
+  @media only screen and (min-width: 501px) {
+        h1 {
+            background-color: #e933f9;
+        }
+        .img {
+          min-width: 1000px;
+          image-orientation: 25deg;
+
+        }
+    }
+
+@media only screen and (max-width: 500px) {
+      h1 {
+          background-color: lightblue;
+      }
+      .img {
+        max-width: 50%;
+
+      }
+  }
